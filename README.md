@@ -1,4 +1,4 @@
-# Neaural Netorks and Deep Learning
+# Neaural Networks and Deep Learning
 
 ## Overview
 
@@ -6,9 +6,8 @@ Using neural networks and, more specifically, deep learning models, this project
 
 ## Resources
 
-*Data: Data for this project was provided in tabular form as charity_data.csv file
-*Software: Python 3.7.7 in Jupyter Notebook 6.0.3 using Pandas, scikit learn, and TensorFlow.
+-Data: Data for this project was provided in tabular form as charity_data.csv file
+-Software: Python 3.7.7 in Jupyter Notebook 6.0.3 using Pandas, scikit learn, and TensorFlow.
 
 ## Model optimization
 
-The first model 
