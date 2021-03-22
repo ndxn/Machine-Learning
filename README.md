@@ -17,7 +17,7 @@ Project goals included:
 
 ## Data Preprocession
 
-The data from sharity_data.csv was imported into a Jupyter Notebook as a Pandas dataframe. The first step in preprocessing the data was to inspect the datatypes. Non-numerical datatipyes included the fieldS:
+The data from sharity_data.csv was imported into a Jupyter Notebook as a Pandas dataframe. The first step in preprocessing the data was to inspect the datatypes. Non-numerical datatipyes included the fields:
 - NAME
 - APPLICATION_TYPE
 - AFFILIATION
