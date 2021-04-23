@@ -11,11 +11,12 @@ Project goals included:
 - Optimizing model training and input data to achieve desired model performance.
 
 ## Tools Used
-**Language**: Python 3.7.7/  
+**Language**: Python 3.7.7  
 **Dependencies**:
 - Pandas
 - scikit-learn
 - TensorFlow
+
 **Environment**: Jupyter Notebook
 
 ## Data Preprocession
