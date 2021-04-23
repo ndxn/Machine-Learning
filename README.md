@@ -13,7 +13,8 @@ Project goals included:
 ## Table of Contents
 * [Goals](#goals)
 * [Tools Used](#Tools-used)
-* [Summary](#summary)
+* [Data Preprocessing](#data-preprocessing)
+* [Model design and training](#model-design-and-training)
 * [Findings](#findings)
 * [Challenges and Next Steps](#Challenges-and-Next-Steps)
 * [Data Source](#Data-source)
@@ -92,10 +93,13 @@ Modifying the input parameters had either no appreciable or a negative effect on
 
 [Back to Top](#neural-networks-and-deep-learning)
 
-## Results
+## Findings
 
 The best accuracy for the neural network model came from Model 4, with three hidden layers and nodes ranging from twice the number of inputs, or 86, to approximately half the number of inputs, or 21. All , attempts to optimize both the model and the dataset fell short of the target accuracy rate of 75%. Attempts to modify just the model had accuracy rates all withing the 72% range. Considering the relatively limited descriptive nature of the input parameters, it appears that the lower-than-anticipated accuracy rates will have to suffice.
 
+[Back to Top](#neural-networks-and-deep-learning)
+
+## Challenges and Next Steps
 [Back to Top](#neural-networks-and-deep-learning)
 
 ## Sources
