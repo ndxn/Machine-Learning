@@ -10,9 +10,13 @@ Project goals included:
 - Selecting, designing, and training a binary classification model.
 - Optimizing model training and input data to achieve desired model performance.
 
-## Resources
-
-- Data: Data for this project was provided in tabular form as charity_data.csv file
+## Tools Used
+**Language**: Python 3.7.7
+**Dependencies**:
+- Pandas
+- scikit-learn
+- TensorFlow
+**Environment**: Jupyter Notebook
 - Software: Python 3.7.7 in Jupyter Notebook 6.0.3 using Pandas, scikit learn, and TensorFlow.
 
 ## Data Preprocession
@@ -75,3 +79,6 @@ Modifying the input parameters had either no appreciable or a negative effect on
 ## Results
 
 The best accuracy for the neural network model came from Model 4, with three hidden layers and nodes ranging from twice the number of inputs, or 86, to approximately half the number of inputs, or 21. All , attempts to optimize both the model and the dataset fell short of the target accuracy rate of 75%. Attempts to modify just the model had accuracy rates all withing the 72% range. Considering the relatively limited descriptive nature of the input parameters, it appears that the lower-than-anticipated accuracy rates will have to suffice.
+
+## Sources
+Data for this project was provided in tabular form as charity_data.csv file.
