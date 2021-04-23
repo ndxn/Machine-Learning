@@ -10,6 +10,17 @@ Project goals included:
 - Selecting, designing, and training a binary classification model.
 - Optimizing model training and input data to achieve desired model performance.
 
+## Table of Contents
+* [Goals](#goals)
+* [Tools Used](#Tools-used)
+* [Summary](#summary)
+* [Findings](#findings)
+* [Challenges and Next Steps](#Challenges-and-Next-Steps)
+* [Data Source](#Data-source)
+
+## Goals
+[Back to Top](#neural-networks-and-deep-learning)
+
 ## Tools Used
 **Language**: Python 3.7.7  
 **Dependencies**:
@@ -17,7 +28,8 @@ Project goals included:
 - scikit-learn
 - TensorFlow
 
-**Environment**: Jupyter Notebook
+**Environment**: Jupyter Notebook  
+[Back to Top](#neural-networks-and-deep-learning)
 
 ## Data Preprocession
 
@@ -38,6 +50,8 @@ Non-informative parameters were dropped. Though EIN could be used as an index, f
 The categorical parameters APPLICATION_TYPE, CLASSIFICATION, and SPECIAL-CONSIDERATIONS all included a number of unique values that necessitated value binning. The resultant categories were binned to reduce the number of unique values down to between 6 and 17, each category including an "Other" value.
 
 With parameters inspected and binned, the categorical parameters were encoded using One Hot Encoding. The resultant DataFrame had 43 input colums and one, IS_SUCCESSFUL, output column. Following preprocessing, the data was split into the X_train, X_test, y_train, and y_test datasets using the standard StandardScaler ratios.
+
+[Back to Top](#neural-networks-and-deep-learning)
 
 ## Model design and training
 
@@ -76,9 +90,15 @@ Model 6: Neural Network, 1 hidden layer, dropping APPLICATION_TYPE
 
 Modifying the input parameters had either no appreciable or a negative effect on the accuracy of the neural network.
 
+[Back to Top](#neural-networks-and-deep-learning)
+
 ## Results
 
 The best accuracy for the neural network model came from Model 4, with three hidden layers and nodes ranging from twice the number of inputs, or 86, to approximately half the number of inputs, or 21. All , attempts to optimize both the model and the dataset fell short of the target accuracy rate of 75%. Attempts to modify just the model had accuracy rates all withing the 72% range. Considering the relatively limited descriptive nature of the input parameters, it appears that the lower-than-anticipated accuracy rates will have to suffice.
 
+[Back to Top](#neural-networks-and-deep-learning)
+
 ## Sources
 Data for this project was provided in tabular form as charity_data.csv file.
+
+[Back to Top](#neural-networks-and-deep-learning)
